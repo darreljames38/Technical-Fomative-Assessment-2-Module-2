@@ -1,0 +1,274 @@
+CRITICAL - 2026-09-14 06:36:21 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: GET, Route: customers]
+in SYSTEMPATH\Database\Database.php on line 186.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(152): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Customers.php(11): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Customers->index()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customers))
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\PC\\Downloads\\codeigniter4-framework-v4.7.4-0-g67ead89\\sanchez\\public\\index.php')
+CRITICAL - 2026-09-14 06:36:39 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: GET, Route: customers]
+in SYSTEMPATH\Database\Database.php on line 186.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(152): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Customers.php(11): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Customers->index()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customers))
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\PC\\Downloads\\codeigniter4-framework-v4.7.4-0-g67ead89\\sanchez\\public\\index.php')
+CRITICAL - 2026-09-14 06:36:43 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: GET, Route: customers]
+in SYSTEMPATH\Database\Database.php on line 186.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(152): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Customers.php(11): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Customers->index()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customers))
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\PC\\Downloads\\codeigniter4-framework-v4.7.4-0-g67ead89\\sanchez\\public\\index.php')
+CRITICAL - 2026-09-14 06:36:46 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: GET, Route: customers]
+in SYSTEMPATH\Database\Database.php on line 186.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(152): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Customers.php(11): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Customers->index()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customers))
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\PC\\Downloads\\codeigniter4-framework-v4.7.4-0-g67ead89\\sanchez\\public\\index.php')
+CRITICAL - 2026-09-14 06:39:37 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: GET, Route: customers]
+in SYSTEMPATH\Database\Database.php on line 186.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(152): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Customers.php(11): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Customers->index()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customers))
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\PC\\Downloads\\codeigniter4-framework-v4.7.4-0-g67ead89\\sanchez\\public\\index.php')
+ERROR - 2026-09-14 06:42:51 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ci4', 3306, '', 0)
+#1 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\app\Controllers\Customers.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\CodeIgniter.php(974): App\Controllers\Customers->index()
+#8 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customers))
+#9 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\rewrite.php(44): require_once('C:\\Users\\PC\\Dow...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\app\Controllers\Customers.php(14): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\CodeIgniter.php(974): App\Controllers\Customers->index()
+#7 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customers))
+#8 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\rewrite.php(44): require_once('C:\\Users\\PC\\Dow...')
+#13 {main}
+CRITICAL - 2026-09-14 06:42:51 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+[Method: GET, Route: customers]
+in SYSTEMPATH\Database\BaseConnection.php on line 606.
+ 1 SYSTEMPATH\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `customers`', [], false)
+ 3 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Customers.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Customers->index()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customers))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\PC\\Downloads\\codeigniter4-framework-v4.7.4-0-g67ead89\\sanchez\\public\\index.php')
+ERROR - 2026-09-14 07:03:33 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'pos_db', 3306, '', 0)
+#1 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\app\Controllers\Customers.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\CodeIgniter.php(974): App\Controllers\Customers->index()
+#8 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customers))
+#9 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\rewrite.php(44): require_once('C:\\Users\\PC\\Dow...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\app\Controllers\Customers.php(14): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\CodeIgniter.php(974): App\Controllers\Customers->index()
+#7 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customers))
+#8 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\rewrite.php(44): require_once('C:\\Users\\PC\\Dow...')
+#13 {main}
+CRITICAL - 2026-09-14 07:03:33 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: customers]
+in SYSTEMPATH\Database\BaseConnection.php on line 606.
+ 1 SYSTEMPATH\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `customers`', [], false)
+ 3 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Customers.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Customers->index()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customers))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\PC\\Downloads\\codeigniter4-framework-v4.7.4-0-g67ead89\\sanchez\\public\\index.php')
+ERROR - 2026-09-14 07:31:19 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ci4', 3306, '', 0)
+#1 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\app\Controllers\Customers.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\CodeIgniter.php(974): App\Controllers\Customers->index()
+#8 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customers))
+#9 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\rewrite.php(44): require_once('C:\\Users\\PC\\Dow...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\app\Controllers\Customers.php(14): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\CodeIgniter.php(974): App\Controllers\Customers->index()
+#7 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customers))
+#8 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\rewrite.php(44): require_once('C:\\Users\\PC\\Dow...')
+#13 {main}
+CRITICAL - 2026-09-14 07:31:19 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+[Method: GET, Route: customers]
+in SYSTEMPATH\Database\BaseConnection.php on line 606.
+ 1 SYSTEMPATH\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `customers`', [], false)
+ 3 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Customers.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Customers->index()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customers))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\PC\\Downloads\\codeigniter4-framework-v4.7.4-0-g67ead89\\sanchez\\public\\index.php')
+ERROR - 2026-09-14 07:33:12 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ci4', 3306, '', 0)
+#1 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\app\Controllers\Customers.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\CodeIgniter.php(974): App\Controllers\Customers->index()
+#8 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customers))
+#9 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\rewrite.php(44): require_once('C:\\Users\\PC\\Dow...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\app\Controllers\Customers.php(14): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\CodeIgniter.php(974): App\Controllers\Customers->index()
+#7 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customers))
+#8 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\PC\Downloads\codeigniter4-framework-v4.7.4-0-g67ead89\sanchez\system\rewrite.php(44): require_once('C:\\Users\\PC\\Dow...')
+#13 {main}
+CRITICAL - 2026-09-14 07:33:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+[Method: GET, Route: customers]
+in SYSTEMPATH\Database\BaseConnection.php on line 606.
+ 1 SYSTEMPATH\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `customers`', [], false)
+ 3 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Customers.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Customers->index()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customers))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\PC\\Downloads\\codeigniter4-framework-v4.7.4-0-g67ead89\\sanchez\\public\\index.php')

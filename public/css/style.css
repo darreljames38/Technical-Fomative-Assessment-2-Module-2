@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #0d1117;
+    color: #e6edf3;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+nav {
+    background: #161b22;
+    border-bottom: 1px solid #30363d;
+    padding: 18px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    color: #8b949e;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+    color: #58a6ff;
+}
+
+.container {
+    width: min(1100px, 88%);
+    margin: 70px auto;
+}
+
+.hero {
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.eyebrow {
+    color: #58a6ff;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 13px;
+}
+
+h1 {
+    font-size: clamp(36px, 6vw, 65px);
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+.description {
+    color: #8b949e;
+    max-width: 620px;
+    font-size: 18px;
+}
+
+.button {
+    background: #238636;
+    color: white;
+    display: inline-block;
+    margin-top: 25px;
+    padding: 11px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    width: fit-content;
+}
+
+.button:hover {
+    background: #2ea043;
+}
+
+.card {
+    background: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.table-wrapper {
+    overflow-x: auto;
+    margin-top: 30px;
+    border: 1px solid #30363d;
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #161b22;
+}
+
+th,
+td {
+    padding: 16px;
+    text-align: left;
+    border-bottom: 1px solid #30363d;
+}
+
+th {
+    background: #21262d;
+    color: #ffffff;
+}
+
+td {
+    color: #c9d1d9;
+}
+
+tbody tr:hover {
+    background: #1c2128;
+}
+
+footer {
+    color: #6e7681;
+    text-align: center;
+    padding: 30px;
+    border-top: 1px solid #21262d;
+}
+
+@media (max-width: 700px) {
+    nav {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+}
