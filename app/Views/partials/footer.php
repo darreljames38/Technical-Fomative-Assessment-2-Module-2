@@ -1,5 +1,5 @@
 <footer>
-    <p>&copy; <?= date('Y') ?> AccountHub</p>
+    <p>&copy; <?= date('Y') ?> TaskFlow</p>
 </footer>
 
 </body>

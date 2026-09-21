@@ -1,4 +1,4 @@
-<?= view('partials/header', ['title' => 'About']) ?>
+ <?= view('partials/header', ['title' => 'About']) ?>
 
 <main class="container">
     <p class="eyebrow">About</p>
@@ -13,4 +13,6 @@
     </section>
 </main>
 
-<?= view('partials/footer') ?>
+<?= view('partials/footer') ?> 
+
+
