@@ -1,41 +1,60 @@
-<?= view('partials/header', ['title' => 'Customer Accounts']) ?>
+<?= view('partials/header') ?>
 
-<main class="container">
-    <p class="eyebrow">Accounts</p>
-    <h1>Customers</h1>
+<main class="page-container">
+    <div class="page-heading">
+        <div>
+            <p class="eyebrow">ACCOUNTS</p>
+            <h1>Customer Accounts</h1>
+        </div>
 
-    <p class="description">
-        View the customer records retrieved from the MySQL database.
-    </p>
+        <a href="<?= site_url('customers/new') ?>" class="button primary">
+            Add Customer
+        </a>
+    </div>
+
+    <?php if (session('success')): ?>
+        <div class="alert success">
+            <?= esc(session('success')) ?>
+        </div>
+    <?php endif ?>
 
     <div class="table-wrapper">
         <table>
             <thead>
                 <tr>
                     <th>ID</th>
-                    <th>Full Name</th>
+                    <th>Full name</th>
                     <th>Email</th>
                     <th>Phone</th>
                     <th>Created</th>
+                    <th>Action</th>
                 </tr>
             </thead>
 
             <tbody>
-                <?php if (!empty($customers)): ?>
-                    <?php foreach ($customers as $customer): ?>
-                        <tr>
-                            <td><?= esc($customer['id']) ?></td>
-                            <td><?= esc($customer['full_name']) ?></td>
-                            <td><?= esc($customer['email']) ?></td>
-                            <td><?= esc($customer['phone']) ?></td>
-                            <td><?= esc($customer['created_at']) ?></td>
-                        </tr>
-                    <?php endforeach; ?>
-                <?php else: ?>
+                <?php foreach ($customers as $customer): ?>
                     <tr>
-                        <td colspan="5">No customer records found.</td>
+                        <td><?= esc($customer['id']) ?></td>
+                        <td><?= esc($customer['full_name']) ?></td>
+                        <td><?= esc($customer['email']) ?></td>
+                        <td><?= esc($customer['phone'] ?? '') ?></td>
+                        <td><?= esc($customer['created_at']) ?></td>
+                        <td>
+                            <a
+                                href="<?= site_url('customers/edit/' . $customer['id']) ?>"
+                                class="button small secondary"
+                            >
+                                Edit
+                            </a>
+                        </td>
                     </tr>
-                <?php endif; ?>
+                <?php endforeach ?>
+
+                <?php if (empty($customers)): ?>
+                    <tr>
+                        <td colspan="6">No customers found.</td>
+                    </tr>
+                <?php endif ?>
             </tbody>
         </table>
     </div>

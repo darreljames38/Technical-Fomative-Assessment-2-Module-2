@@ -6,6 +6,7 @@ use CodeIgniter\Model;
 
 class UserModel2 extends Model
 {
+    protected $DBGroup = 'tasks';
     protected $table = 'users';
     protected $primaryKey = 'id';
     protected $returnType = 'array';
