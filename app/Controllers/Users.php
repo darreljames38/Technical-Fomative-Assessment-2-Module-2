@@ -38,6 +38,10 @@ class Users extends BaseController
                 'label' => 'Full name',
                 'rules' => 'required|max_length[100]',
             ],
+            'password' => [
+                'label' => 'Password',
+                'rules' => 'required|min_length[8]|max_length[255]',
+            ],
         ];
 
         if (! $this->validate($rules)) {
@@ -47,8 +51,16 @@ class Users extends BaseController
         }
 
         $this->userModel->insert([
-            'username'   => trim((string) $this->request->getPost('username')),
-            'full_name'  => trim((string) $this->request->getPost('full_name')),
+            'username' => trim(
+                (string) $this->request->getPost('username')
+            ),
+            'full_name' => trim(
+                (string) $this->request->getPost('full_name')
+            ),
+            'password' => password_hash(
+                (string) $this->request->getPost('password'),
+                PASSWORD_DEFAULT
+            ),
             'created_at' => date('Y-m-d H:i:s'),
         ]);
 
@@ -61,7 +73,9 @@ class Users extends BaseController
         $user = $this->userModel->find($id);
 
         if ($user === null) {
-            throw PageNotFoundException::forPageNotFound('User not found.');
+            throw PageNotFoundException::forPageNotFound(
+                'User not found.'
+            );
         }
 
         return view('users/edit', [
@@ -74,7 +88,9 @@ class Users extends BaseController
         $user = $this->userModel->find($id);
 
         if ($user === null) {
-            throw PageNotFoundException::forPageNotFound('User not found.');
+            throw PageNotFoundException::forPageNotFound(
+                'User not found.'
+            );
         }
 
         $rules = [
@@ -86,12 +102,19 @@ class Users extends BaseController
                 'label' => 'Full name',
                 'rules' => 'required|max_length[100]',
             ],
+            'password' => [
+                'label' => 'New password',
+                'rules' => 'permit_empty|min_length[8]|max_length[255]',
+            ],
         ];
 
         $avatar = $this->request->getFile('avatar');
 
-        // Avatar is optional, but validated when a file is selected.
-        if ($avatar !== null && $avatar->getError() !== UPLOAD_ERR_NO_FILE) {
+        // Validate the avatar only if the user selected a file.
+        if (
+            $avatar !== null
+            && $avatar->getError() !== UPLOAD_ERR_NO_FILE
+        ) {
             $rules['avatar'] = [
                 'label' => 'Avatar',
                 'rules' => [
@@ -110,10 +133,25 @@ class Users extends BaseController
         }
 
         $updateData = [
-            'username'  => trim((string) $this->request->getPost('username')),
-            'full_name' => trim((string) $this->request->getPost('full_name')),
+            'username' => trim(
+                (string) $this->request->getPost('username')
+            ),
+            'full_name' => trim(
+                (string) $this->request->getPost('full_name')
+            ),
         ];
 
+        // Change the password only if a new password was entered.
+        $newPassword = (string) $this->request->getPost('password');
+
+        if ($newPassword !== '') {
+            $updateData['password'] = password_hash(
+                $newPassword,
+                PASSWORD_DEFAULT
+            );
+        }
+
+        // Process the avatar only if a valid file was uploaded.
         if ($avatar !== null && $avatar->isValid()) {
             $uploadDirectory = FCPATH . 'uploads/avatars/';
 

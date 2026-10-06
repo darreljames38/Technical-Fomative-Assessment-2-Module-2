@@ -50,6 +50,22 @@
             >
         </div>
 
+
+        <div class="form-group">
+            <label for="password">New password</label>
+             <input
+                type="password"
+                id="password"
+                name="password"
+                minlength="8"
+                autocomplete="new-password"
+            >
+
+            <small>
+                Leave this empty to keep the current password.
+            </small>
+        </div>
+
         <div class="form-group">
             <label for="avatar">Profile picture</label>
             <input

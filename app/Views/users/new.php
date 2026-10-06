@@ -45,6 +45,21 @@
             >
         </div>
 
+        <div class="form-group">
+    <label for="password">Password</label>
+
+    <input
+        type="password"
+        id="password"
+        name="password"
+        minlength="8"
+        autocomplete="new-password"
+        required
+    >
+
+    <small>Use at least 8 characters.</small>
+</div>
+
         <button type="submit" class="button primary">
             Save User
         </button>
