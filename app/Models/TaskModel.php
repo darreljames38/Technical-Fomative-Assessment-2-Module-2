@@ -7,7 +7,8 @@ use CodeIgniter\Model;
 class TaskModel extends Model
 {
     protected $DBGroup = 'tasks';
-    protected $table = 'tasks';
+
+    protected $table      = 'tasks';
     protected $primaryKey = 'id';
     protected $returnType = 'array';
 
@@ -16,5 +17,6 @@ class TaskModel extends Model
         'status',
         'task_date',
         'created_at',
+        'is_archived',
     ];
 }

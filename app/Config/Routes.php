@@ -32,10 +32,28 @@ $routes->group('', ['filter' => 'auth'], static function ($routes) {
     $routes->get('users/edit/(:num)', 'Users::edit/$1');
     $routes->post('users/update/(:num)', 'Users::update/$1');
 });
+// Public Tasks authentication
+$routes->get('tasks/login', 'TaskAuth::login');
+$routes->post('tasks/login', 'TaskAuth::attempt');
+$routes->post('tasks/logout', 'TaskAuth::logout');
 
-// Public Tasks system
+// Public Tasks pages
 $routes->get('today', 'Welcome::index');
 $routes->get('tasks', 'Tasks::index');
 $routes->get('profile', 'Profile::index');
 $routes->get('about', 'Pages2::about');
+
+// Protected task-management actions
+$routes->group(
+    'tasks',
+    ['filter' => 'task-auth'],
+    static function ($routes) {
+        $routes->get('new', 'Tasks::new');
+        $routes->post('create', 'Tasks::create');
+        $routes->get('edit/(:num)', 'Tasks::edit/$1');
+        $routes->post('update/(:num)', 'Tasks::update/$1');
+        $routes->post('archive/(:num)', 'Tasks::archive/$1');
+    }
+);
+
 $routes->setAutoRoute(false);

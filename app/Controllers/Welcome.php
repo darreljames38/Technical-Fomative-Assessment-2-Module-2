@@ -10,13 +10,15 @@ class Welcome extends BaseController
     {
         $taskModel = new TaskModel();
 
-        $data = [
-            'tasks' => $taskModel
-                ->where('task_date', date('Y-m-d'))
-                ->orderBy('id', 'ASC')
-                ->findAll(),
-        ];
+        $tasks = $taskModel
+            ->where('task_date', date('Y-m-d'))
+            ->where('is_archived', 0)
+            ->orderBy('id', 'ASC')
+            ->findAll();
 
-        return view('welcome', $data);
+        return view('welcome', [
+            'title' => 'Tasks for Today',
+            'tasks' => $tasks,
+        ]);
     }
 }

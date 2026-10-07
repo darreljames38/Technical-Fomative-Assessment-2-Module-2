@@ -1,8 +1,12 @@
 <?= view('partials/header', ['title' => 'Profile']) ?>
 
-<main class="container">
-    <p class="eyebrow">Account</p>
-    <h1>Profile</h1>
+<main class="page-container">
+    <div class="page-heading">
+        <div>
+            <p class="eyebrow">DEMO USER</p>
+            <h1>Profile</h1>
+        </div>
+    </div>
 
     <?php if ($user !== null): ?>
         <section class="card">
@@ -17,7 +21,7 @@
             </p>
 
             <p>
-                <strong>Full Name:</strong>
+                <strong>Full name:</strong>
                 <?= esc($user['full_name']) ?>
             </p>
 
@@ -32,10 +36,10 @@
             </p>
         </section>
     <?php else: ?>
-        <section class="card">
-            <p>No user record found.</p>
-        </section>
-    <?php endif; ?>
+        <div class="alert error">
+            No demo user was found.
+        </div>
+    <?php endif ?>
 </main>
 
 <?= view('partials/footer') ?>

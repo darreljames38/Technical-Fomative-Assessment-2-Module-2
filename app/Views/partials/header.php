@@ -11,10 +11,9 @@
 
     <title><?= esc($title ?? 'SystemHub') ?></title>
 
-    <!-- Connect the external CSS file -->
     <link
         rel="stylesheet"
-        href="<?= base_url('css/style.css?v=5') ?>"
+        href="<?= base_url('css/style.css?v=6') ?>"
     >
 </head>
 
@@ -27,6 +26,7 @@
         </a>
 
         <div class="nav-menu">
+            <!-- POS dropdown -->
             <details class="nav-dropdown">
                 <summary>POS</summary>
 
@@ -46,9 +46,44 @@
                     <a href="<?= site_url('pos/about') ?>">
                         About POS
                     </a>
+
+                    <div class="menu-divider"></div>
+
+                    <?php if (
+                        session()->get('is_logged_in') === true
+                    ): ?>
+                        <span class="menu-user">
+                            <?= esc(
+                                session()->get('full_name')
+                            ) ?>
+                        </span>
+
+                        <form
+                            action="<?= site_url('logout') ?>"
+                            method="post"
+                            class="menu-form"
+                        >
+                            <?= csrf_field() ?>
+
+                            <button
+                                type="submit"
+                                class="menu-action logout-action"
+                            >
+                                POS Logout
+                            </button>
+                        </form>
+                    <?php else: ?>
+                        <a
+                            href="<?= site_url('login') ?>"
+                            class="menu-login"
+                        >
+                            POS Login
+                        </a>
+                    <?php endif ?>
                 </div>
             </details>
 
+            <!-- Tasks dropdown -->
             <details class="nav-dropdown">
                 <summary>Tasks</summary>
 
@@ -68,36 +103,52 @@
                     <a href="<?= site_url('about') ?>">
                         About Tasks
                     </a>
+
+                    <?php if (
+                        session()->get('task_logged_in') === true
+                    ): ?>
+                        <a href="<?= site_url('tasks/new') ?>">
+                            New Task
+                        </a>
+                    <?php endif ?>
+
+                    <div class="menu-divider"></div>
+
+                    <?php if (
+                        session()->get('task_logged_in') === true
+                    ): ?>
+                        <span class="menu-user">
+                            <?= esc(
+                                session()->get('task_full_name')
+                                ?? session()->get('task_username')
+                                ?? 'Task User'
+                            ) ?>
+                        </span>
+
+                        <form
+                            action="<?= site_url('tasks/logout') ?>"
+                            method="post"
+                            class="menu-form"
+                        >
+                            <?= csrf_field() ?>
+
+                            <button
+                                type="submit"
+                                class="menu-action logout-action"
+                            >
+                                Tasks Logout
+                            </button>
+                        </form>
+                    <?php else: ?>
+                        <a
+                            href="<?= site_url('tasks/login') ?>"
+                            class="menu-login"
+                        >
+                            Tasks Login
+                        </a>
+                    <?php endif ?>
                 </div>
             </details>
-
-            <?php if (session()->get('is_logged_in') === true): ?>
-                <span class="nav-username">
-                    <?= esc(session()->get('full_name')) ?>
-                </span>
-
-                <form
-                    action="<?= site_url('logout') ?>"
-                    method="post"
-                    class="logout-form"
-                >
-                    <?= csrf_field() ?>
-
-                    <button
-                        type="submit"
-                        class="auth-button logout-button"
-                    >
-                        Logout
-                    </button>
-                </form>
-            <?php else: ?>
-                <a
-                    href="<?= site_url('login') ?>"
-                    class="auth-button"
-                >
-                    Login
-                </a>
-            <?php endif ?>
         </div>
     </nav>
 </header>

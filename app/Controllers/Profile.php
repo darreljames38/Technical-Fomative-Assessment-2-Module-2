@@ -10,10 +10,20 @@ class Profile extends BaseController
     {
         $userModel = new UserModel2();
 
-        $data = [
-            'user' => $userModel->first(),
-        ];
+        // Select only safe profile fields.
+        $user = $userModel
+            ->select([
+                'id',
+                'username',
+                'full_name',
+                'email',
+                'created_at',
+            ])
+            ->first();
 
-        return view('profile', $data);
+        return view('profile', [
+            'title' => 'Profile',
+            'user'  => $user,
+        ]);
     }
 }
